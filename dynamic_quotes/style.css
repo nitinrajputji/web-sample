@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  justify-content: center;
+
+  margin-top: 100px;
+}
+
+.card {
+  background-color: hsl(300, 49%, 59%);
+  width: 668px;
+  height: 428px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 50px solid blue;
+  box-shadow: 2px 1px grey;
+}
+
+.text {
+  left: 97px;
+  position: absolute;
+  top: 95px;
+}
+.author {
+  text-align: right;
+  position: absolute;
+  right: 40px;
+  top: 217px;
+}
+
+body {
+  background-color: black;
+}
+
+.btn {
+  position: absolute;
+  background-color: green;
+  width: 100%;
+  bottom: 0;
+}
+
+img {
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
